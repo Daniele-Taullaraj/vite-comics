@@ -1,5 +1,13 @@
 <script>
+import AppSectionLinkFooter from './AppFooterComponents/AppSectionLinkFooter.vue';
+import AppSectionSocialFooter from './AppFooterComponents/AppSectionSocialFooter.vue';
+
+
 export default {
+    components: {
+        AppSectionLinkFooter,
+        AppSectionSocialFooter
+    },
     data() {
         return {
         }
@@ -14,12 +22,10 @@ export default {
 </script>
 
 <template>
-    <footer></footer>
+    <footer>
+        <AppSectionLinkFooter />
+        <AppSectionSocialFooter />
+    </footer>
 </template>
 
-<style scoped>
-footer {
-    background-color: yellow;
-    height: 50vh;
-}
-</style>
+<style scoped></style>

@@ -1,5 +1,10 @@
 <script>
+import AppSectionMerch from './AppMainComponents/AppSectionMerch.vue';
+
 export default {
+    components: {
+        AppSectionMerch,
+    },
     data() {
         return {
         }
@@ -14,12 +19,28 @@ export default {
 </script>
 
 <template>
-    <main></main>
+    <main>
+        <div class="container-fluid p-0 ">
+
+            <div class="row py-5 m-0">
+                <div class="col-2"></div>
+                <div class="col" id="dafinire"> CONTENT GOES HERE </div>
+                <div class="col-2"></div>
+            </div>
+
+            <AppSectionMerch />
+
+        </div>
+    </main>
 </template>
 
 <style scoped>
 main {
-    background-color: blue;
-    height: 35vh;
+    background-color: #1C1C1C;
+    color: white;
+}
+
+#dafinire {
+    background-color: red;
 }
 </style>
