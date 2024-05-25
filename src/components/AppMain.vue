@@ -1,9 +1,15 @@
 <script>
-import AppSectionMerch from './AppMainComponents/AppSectionMerch.vue';
+import SectionMerch from './AppMainComponents/SectionMerch.vue';
+import SectionJumbo from './AppMainComponents/SectionJumbo.vue';
+import SectionSeries from './AppMainComponents/SectionSeries.vue';
+
+
 
 export default {
     components: {
-        AppSectionMerch,
+        SectionMerch,
+        SectionJumbo,
+        SectionSeries,
     },
     data() {
         return {
@@ -20,17 +26,15 @@ export default {
 
 <template>
     <main>
-        <div class="container-fluid p-0 ">
 
-            <div class="row py-5 m-0">
-                <div class="col-2"></div>
-                <div class="col" id="dafinire"> CONTENT GOES HERE </div>
-                <div class="col-2"></div>
-            </div>
 
-            <AppSectionMerch />
 
-        </div>
+
+        <SectionJumbo />
+        <SectionSeries />
+        <SectionMerch />
+
+
     </main>
 </template>
 

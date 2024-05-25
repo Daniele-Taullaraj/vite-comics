@@ -1,12 +1,12 @@
 <script>
-import AppSectionLinkFooter from './AppFooterComponents/AppSectionLinkFooter.vue';
-import AppSectionSocialFooter from './AppFooterComponents/AppSectionSocialFooter.vue';
+import LinkFooter from './AppFooterComponents/LinkFooter.vue';
+import SocialFooter from './AppFooterComponents/SocialFooter.vue';
 
 
 export default {
     components: {
-        AppSectionLinkFooter,
-        AppSectionSocialFooter
+        LinkFooter,
+        SocialFooter
     },
     data() {
         return {
@@ -23,8 +23,8 @@ export default {
 
 <template>
     <footer>
-        <AppSectionLinkFooter />
-        <AppSectionSocialFooter />
+        <LinkFooter />
+        <SocialFooter />
     </footer>
 </template>
 

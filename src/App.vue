@@ -30,3 +30,16 @@ export default {
 </template>
 
 <style></style>
+
+
+<!-- getImg(path) {
+  let risultato = new URL("../assets/img/" + path, import.meta.url);
+  return risultato.href;
+}, -->
+
+
+<!-- 
+https://github.com/vuejs/awesome-vue -->
+
+
+<!-- https://www.youtube.com/watch?v=PkgUm_rlJgI -->
