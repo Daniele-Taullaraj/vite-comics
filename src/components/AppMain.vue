@@ -5,6 +5,7 @@ import SectionSeries from './AppMainComponents/SectionSeries.vue';
 
 
 
+
 export default {
     components: {
         SectionMerch,
@@ -27,13 +28,9 @@ export default {
 <template>
     <main>
 
-
-
-
         <SectionJumbo />
         <SectionSeries />
         <SectionMerch />
-
 
     </main>
 </template>
