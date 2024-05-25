@@ -26,19 +26,18 @@ export default {
 </script>
 
 <template>
-    <main>
+    <div>
 
         <SectionJumbo />
         <SectionSeries />
         <SectionMerch />
 
-    </main>
+    </div>
 </template>
 
 <style scoped>
-main {
+div {
     background-color: #1C1C1C;
-    color: white;
 }
 
 #dafinire {

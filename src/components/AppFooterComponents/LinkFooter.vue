@@ -37,8 +37,8 @@ export default {
     <div id="bg-footer" class="position-relative w-100 ">
         <div id="dc-logo" class="position-absolute top-0 h-100 w-100 "></div>
         <div class="row m-0">
-            <div class="col-2"></div>
-            <div class="col-4">
+            <div class="col-1 col-md-2"></div>
+            <div class="col-11 col-sm-10 col-md-6 col-xl-4">
                 <div class="row py-5">
 
 
@@ -69,7 +69,6 @@ export default {
 
                 </div>
             </div>
-            <div class="col-6"></div>
         </div>
     </div>
 </template>

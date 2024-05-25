@@ -15,7 +15,13 @@ export default {
 </script>
 
 <template>
-    <div id="jumbo"></div>
+    <div class="container-fluid p-0">
+        <div class="row m-0 ">
+            <div id="jumbo"></div>
+        </div>
+
+    </div>
+
 </template>
 
 

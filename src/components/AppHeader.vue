@@ -44,6 +44,7 @@ export default {
             </div>
         </div>
     </header>
+
 </template>
 
 <style scoped>
@@ -52,13 +53,13 @@ export default {
     height: 15vh;
 }
 
-.col-5 a {
+a {
     font-size: 0.8rem;
     border-bottom: 5px solid transparent;
     color: #737680;
 }
 
-.col-5 a:hover {
+a:hover {
     color: #0282F9;
     border-bottom: 5px solid #0282F9;
 }
